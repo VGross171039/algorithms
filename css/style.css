@@ -1,4 +1,41 @@
-.content-wrap{
-  padding: 1rem 0;
+.page-wrap{
+  padding: 0;
 }
 
+.content-wrap{
+  padding: 2rem 0;
+}
+
+header, footer{
+  background-color: aquamarine;
+  padding: 2rem 0;
+}
+
+h1, h2, h3 {
+  font-style: italic;
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+}
+
+h1{
+  font-size: 24px;
+  color: #f00;
+}
+
+h2{
+  font-size: 20px;
+  color: #00137f;
+}
+
+ul.main-menu li+li{
+  margin-top: 0.3rem;
+}
+
+a:hover{
+  color: #f00;
+  transition: all 0.2s ease;
+}
+
+.mb-1{
+  margin-bottom: 1rem;
+}
