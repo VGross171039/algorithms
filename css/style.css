@@ -7,8 +7,12 @@
 }
 
 header, footer{
-  background-color: aquamarine;
+  background-color: azure;
   padding: 2rem 0;
+}
+
+header .title-wrap{
+  padding-top: 1rem;
 }
 
 h1, h2, h3 {
@@ -20,6 +24,13 @@ h1, h2, h3 {
 h1{
   font-size: 24px;
   color: #f00;
+}
+
+h1 span {
+  display: inline-block;
+  padding-left: 1rem;
+  color: #00137f;
+  font-weight: 400;
 }
 
 h2{
