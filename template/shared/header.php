@@ -19,12 +19,16 @@
       <div class="container">
         <div class="row">
           <div class="col-50">
-            <h1><a href="/">PHP Алгоритмы<span><?php echo $maint;?></span></a></h1>
+            <h1><a href="/">PHP Алгоритмы</a></h1>
             <div class="title-wrap">
               <p><?php echo $title;?></p>
             </div>
           </div>
-          <div class="col-50"></div>
+          <div class="col-50">
+            <div class="title-wrap text-right">
+              <h2><?php echo $maint;?></h2>
+            </div>
+          </div>
         </div>
       </div>
     </header>
