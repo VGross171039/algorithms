@@ -33,3 +33,10 @@
       </div>
     </header>
       <div class="content-wrap">
+        <div class="container">
+          <div class="row">
+
+            <?php if ($_SERVER["REQUEST_URI"] != '/') :?>
+              <div class="col-100">
+            <?php endif;?>
+

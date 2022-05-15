@@ -1,17 +1,8 @@
 <?php $root = $_SERVER['DOCUMENT_ROOT']; ?>
 <?php require_once $root . '/template/shared/header.php'; ?>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-50">
-        <?php if(file_exists($root . '/template/inc/menu/menuleft.php')){
-          require_once $root . '/template/inc/menu/menuleft.php';
-        }?>
-      </div>
-      <div class="col-50">
-        
-      </div>
-    </div>
-  </div>
+  <?php if(file_exists($root . '/template/inc/menu/main.php')){
+    require_once $root . '/template/inc/menu/main.php';
+  }?>
 
 <?php require_once $root . '/template/shared/footer.php'; ?>

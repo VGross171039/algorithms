@@ -1,16 +1,6 @@
 <?php $root = $_SERVER['DOCUMENT_ROOT']; ?>
 <?php require_once $root . '/template/shared/header.php'; ?>
 
-<div class="conteiner">
-  <div class="row">
-    <div class="col-100">
-
-      
-
-    </div>
-  </div>
-</div>
-
-
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi obcaecati sequi nostrum placeat aspernatur, distinctio soluta quo, voluptates explicabo at debitis sit quibusdam. Quis quasi, fuga eligendi facere, aperiam adipisci repellat hic blanditiis magnam atque harum reprehenderit illum cumque modi optio necessitatibus vitae doloribus ducimus nostrum consequatur eum rem! Obcaecati iure repellendus eveniet quisquam perferendis, earum ex iste in soluta dolorem cupiditate officia, veritatis consequatur fuga. Tempore rerum culpa nihil sapiente totam quidem tempora consectetur eligendi obcaecati, cupiditate expedita voluptate esse! Cumque eveniet consectetur labore! Sunt perferendis repellat dolor est impedit iste accusamus deleniti quo alias doloremque facere corrupti molestiae unde aut dignissimos rem ad incidunt, odit neque error aspernatur. Voluptates modi omnis nihil nemo voluptas sapiente incidunt commodi dolores!
 
 <?php require_once $root . '/template/shared/footer.php'; ?>
