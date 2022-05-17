@@ -39,7 +39,11 @@ h2{
 }
 
 ul.main-menu li+li{
-  margin-top: 0.3rem;
+  margin-top: 0.7rem;
+}
+
+ul.main-menu a{
+  font-size: 18px;
 }
 
 a:hover{
@@ -47,10 +51,10 @@ a:hover{
   transition: all 0.2s ease;
 }
 
-.mb-1{
-  margin-bottom: 1rem;
-}
-
 .text-right{
   text-align: right;
+}
+
+.testcode-wrap{
+  margin-bottom: 1rem;
 }

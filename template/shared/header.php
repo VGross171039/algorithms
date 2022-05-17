@@ -24,11 +24,7 @@
               <p><?php echo $title;?></p>
             </div>
           </div>
-          <div class="col-50">
-            <div class="title-wrap text-right">
-              <h2><?php echo $maint;?></h2>
-            </div>
-          </div>
+          <div class="col-50"></div>
         </div>
       </div>
     </header>
@@ -38,5 +34,14 @@
 
             <?php if ($_SERVER["REQUEST_URI"] != '/') :?>
               <div class="col-100">
+                <?php if (preg_match("/testcode/i", $url)) :?>
+                  <div class="testcode-wrap"></div>
+                <?php else:?>
+                  <div class="testcode-wrap">
+                    <a href="testcode/">Вспомогательный и тестовый код</a>
+                  </div>
+                <?php endif;?>
             <?php endif;?>
+
+
 
