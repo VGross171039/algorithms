@@ -22,5 +22,4 @@ echo $log;
 
 <p>Ответ: + 1</p>
 
-
 <?php require_once $root . '/template/shared/footer.php'; ?>

@@ -1,29 +1,39 @@
 <?php 
 
-function binarySearch($needle, $array) {
-  $low = 0; // Исходная минимально возможная позиция
-  $high = count($array) - 1; // Исходная максимально возможная позиция
-  // Решение через цикл While
-  while ($low <= $high) { // Условие работы цикла: пока $low <= $high
-    $middle = floor(($low + $high) / 2); // Ориентировочная средняя позиция (округлено в +)
-    // Если значение элемента массива, находящегося на средней позиции, соответствует цели - 
-    // - возвращаем значение средней позиции 
+class BinarySearch {
+public $needle;
+public $array;
+
+public function __construct($needle = null, $array = null)
+{
+  if(isset($needle)){
+    $this->needle = $needle;
+  }
+
+  if(isset($array)){
+    $this->array = $array;
+  }
+  
+}
+
+public function binarySearch($needle, $array) {
+  $low = 0;
+  $high = count($array) - 1;
+  while ($low <= $high) {
+    $middle = floor(($low + $high) / 2);
     if ($array[$middle] == $needle) {
-      return $middle; // Результат работы функции, если цель присутствует в массиве
+      return $middle;
     }
-    // Если значение элемента массива, находящегося на средней позиции, больше цели 
     if ($array[$middle] > $needle) {
-    // обновляем переменную $high
       $high = $middle - 1;
     } else {
-    // Если значение элемента массива, находящегося на средней позиции, меньше цели  
-    // обновляем переменную $low
       $low = $middle + 1;
     }
   }
-  // Если цикл ничего не находит 
-  // return null;
-  return 'Result search - null!'; // Результат работы функции, если цель отсутствует в массиве
+  return null;
 }
+
+}
+
 
 ?>
