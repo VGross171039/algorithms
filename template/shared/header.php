@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/mygrid.css">
   <link rel="stylesheet" href="/css/style.css">
-  <title>Алгоритмы <span><?php echo $title; ?></span></title>
+  <title>Алгоритмы | <?php echo $title; ?></title>
 </head>
 
 <body>
@@ -34,11 +34,11 @@
 
             <?php if ($_SERVER["REQUEST_URI"] != '/') :?>
               <div class="col-100">
-                <?php if (preg_match("/testcode/i", $url)) :?>
+                <?php if (preg_match("/task/i", $url)) :?>
                   <div class="testcode-wrap"></div>
                 <?php else:?>
                   <div class="testcode-wrap">
-                    <a href="testcode/">Вспомогательный и тестовый код</a>
+                    <a href="task/" target="_blank">Задачи к уроку</a>
                   </div>
                 <?php endif;?>
             <?php endif;?>

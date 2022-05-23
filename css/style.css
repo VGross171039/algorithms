@@ -56,5 +56,38 @@ a:hover{
 }
 
 .testcode-wrap{
+  margin-bottom: 2rem;
+  text-align: right;
+}
+
+.result-banner p+p{
+  margin-top: 0.5rem;
+}
+
+.result-banner{
+  padding: 1rem 0;
+}
+
+.mb-05{
+  margin-bottom: 0.5rem;
+}
+
+.mb-1{
   margin-bottom: 1rem;
+}
+
+.mb-2{
+  margin-bottom: 2rem;
+}
+
+.pb-05{
+  padding-bottom: 0.5rem;
+}
+
+.pb-1{
+  padding-bottom: 1rem;
+}
+
+.pb-2{
+  padding-bottom: 2rem;
 }
